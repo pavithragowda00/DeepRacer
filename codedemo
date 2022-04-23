@@ -48,7 +48,7 @@ def reward_function(params):
 
     # Reward if the agent stays inside the two borders of the track
     if all_wheels_on_track and (0.5 * track_width - distance_from_center) >= 0.05:
-        reward_lane = 2.0
+        reward_lane = 3.5
     else:
         reward_lane = 1e-3
 
